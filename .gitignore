@@ -1,6 +1,3 @@
-# 差分対象ディレクトリ（中身は追跡しない）
-diffTarget/new/*
-diffTarget/old/*
 
 # exports フォルダの中身を追跡しない
 exports/*
