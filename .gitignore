@@ -5,8 +5,6 @@ diffTarget/old/*
 # exports フォルダの中身を追跡しない
 exports/*
 
-
-
 .DS_Store
 package-lock.json
 node_modules
