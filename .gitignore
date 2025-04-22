@@ -1,6 +1,8 @@
 
 # exports フォルダの中身を追跡しない
 exports/*
+diffTargetNew/*
+diffTargetOld/*
 
 .DS_Store
 package-lock.json
