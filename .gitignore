@@ -5,10 +5,7 @@ diffTarget/old/*
 # exports フォルダの中身を追跡しない
 exports/*
 
-# ただし、フォルダ自体は Git に残したい場合は .gitkeep を使う
-!diffTarget/new/.gitkeep
-!diffTarget/old/.gitkeep
-!exports/.gitkeep
+
 
 .DS_Store
 package-lock.json
