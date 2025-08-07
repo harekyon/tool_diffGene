@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "diff": "npm run delsysf & node scripts/diff-runner.mjs",
+    "delsysf": "find . -name '.DS_Store' -type f -ls -delete",
+    "init": "node scripts/init-folders.mjs"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "dir-compare": "^5.0.0",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.3.0",
+    "globby": "^14.1.0"
+  }
+}
